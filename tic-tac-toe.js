@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded',function(){
 
  const boxes=board.querySelectorAll("div");
 
-  //use for or for each square
 
   boxes.forEach(function(box){box.classList.add("square")});
  });
